@@ -1,0 +1,32 @@
+.nav-bar {
+  background-color: #1f2937;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 16px 20px;
+  color: #f9fafb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.nav-bar a:hover {
+  background-color: #374151;
+}
+
+body {
+  margin: 0;
+}
